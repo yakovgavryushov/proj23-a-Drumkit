@@ -1,0 +1,41 @@
+body {
+    background-color: darkmagenta;
+    color:yellow;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.keys {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1
+}
+.key {
+
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(220, 20, 60, 0.4);
+    text-shadow: 0 0 .5rem black;
+}
+.playing {
+    transform: scale(1.1);
+    border-color: coral;
+    box-shadow: 0 0 10px coral;
+}
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
